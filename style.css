@@ -1,0 +1,122 @@
+body {
+
+    background-color: #F4F8FB ;
+    color: #002A3A  ;
+    
+    height: 100vh;  /* altura de la pagina */
+    box-sizing: border-box; /* para que el padding no afecte el tamaño de la pagina */
+}
+strong {
+    color: #34495E ;
+}
+
+
+/* Para llamar una class en css se usa un punto antes del nombre de la clase */
+.titulo-destaque {
+    color: #00A6FB;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Crea un resaltado en rectangulo con el texto dentro
+se tiene que crear una etiqueta span en html
+<span>"texto"</span>
+
+span {
+    color: #22D4FD;
+    border: 1px solid #22D4FD;
+    padding: 10px;
+}
+
+
+
+/* Quita los margenes y padding por defecto de la pagina 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+el asterisco selecciona todos los elementos de la pagina
+
+
+
+
+
+
+
+
+
+/*Estilo 1
+body {
+
+    background-color: #F8F9FA ;
+    color: #1E2A38  ;
+    
+}
+strong {
+    color: #D48C00 ;
+}
+
+/*Estilo 2
+body {
+
+    background-color: #F4F8FB ;
+    color: #002A3A  ;
+    
+}
+strong {
+    color: #00A6FB ;
+}
+
+/*Estilo 3
+body {
+
+    background-color: #FFFFFF ;
+    color: #2D2D2D  ;
+    
+}
+strong {
+    color: #FF4500 ;
+}
